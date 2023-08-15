@@ -16,7 +16,7 @@ h1{
   text-align: center;
   border: 2px solid white;
   width: 67%;
-  height: 90vh;
+  height: 90vw;
   border-radius: 5vw;
   display : flex;
   flex-direction: column;
@@ -127,4 +127,12 @@ input[type="text"]{
   .advance{
     height: 7vh;
   }
+}
+
+@media screen and (max-width:884px){
+  .container{
+    margin-top: 20vw;
+    height: 140vw;
+  }
+
 }
